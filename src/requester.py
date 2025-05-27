@@ -270,7 +270,7 @@ def main(instruction_filename: ExistingFilename = config.INSTRUCTION_FILENAME, p
         commands.append(command + '\n')
 
     backup(commands)
-    os.system("output/remove_black.bat")
+    os.system("../output/remove_black.bat")
 
 
 if __name__ == '__main__':
